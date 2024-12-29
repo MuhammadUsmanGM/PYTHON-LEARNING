@@ -1,5 +1,0 @@
-print("I'M MUHAMMAD USMAN")
-print("My father name is Ghulam Mustafa")
-print("I'M a student right now")
-print("I'M a student of AI agentic in PIAIC")
-print("My PIAIC roll non is PIAIC2536607")
