@@ -9,8 +9,8 @@ bmi=weight/((height/100)**2)
 
 st.write(f'YOur BMI is {bmi}')
 
-st.write('### BMI Categories###')
-st.write("-->Underweight: BMI less than 18.5")
-st.write("-->Normal Weight: BMI between 18.5 and 24.9")
-st.write("-->Overweight: BMI between 25 and 29.9")
-st.write("-->Obesity: BMI 30 or Greater")
+st.write('### BMI Categories ###')
+st.info("-->Underweight: BMI less than 18.5")
+st.success("-->Normal Weight: BMI between 18.5 and 24.9")
+st.warning("-->Overweight: BMI between 25 and 29.9")
+st.error("-->Obesity: BMI 30 or Greater")
