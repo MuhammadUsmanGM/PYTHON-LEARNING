@@ -7,7 +7,7 @@ weight=st.slider('Enter your weight(in kg): ',20,200,70)
 weight=float(weight)
 bmi=weight/((height/100)**2)
 
-st.write(f'YOur BMI is {bmi}')
+st.subheader(f'Your BMI is {bmi}')
 
 st.write('### BMI Categories ###')
 st.info("-->Underweight: BMI less than 18.5")
