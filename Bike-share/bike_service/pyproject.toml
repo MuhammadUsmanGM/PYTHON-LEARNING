@@ -1,0 +1,63 @@
+[project]
+name = "bike-service"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Muhammad Usman GM", email = "muhammadusman75425965etc@gamil.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "altair>=5.5.0",
+    "attrs>=25.3.0",
+    "blinker>=1.9.0",
+    "branca>=0.8.1",
+    "cachetools>=5.5.2",
+    "certifi>=2025.1.31",
+    "charset-normalizer>=3.4.1",
+    "click>=8.1.8",
+    "folium>=0.19.5",
+    "future>=1.0.0",
+    "geocoder>=1.38.1",
+    "geographiclib>=2.0",
+    "geopy>=2.4.1",
+    "gitdb>=4.0.12",
+    "gitpython>=3.1.44",
+    "idna>=3.10",
+    "jinja2>=3.1.6",
+    "jsonschema>=4.23.0",
+    "jsonschema-specifications>=2024.10.1",
+    "markdown-it-py>=3.0.0",
+    "markupsafe>=3.0.2",
+    "mdurl>=0.1.2",
+    "numpy>=2.2.3",
+    "pandas>=2.2.3",
+    "pillow>=11.1.0",
+    "protobuf>=5.29.3",
+    "pyarrow>=19.0.1",
+    "pydeck>=0.9.1",
+    "pytz>=2025.1",
+    "ratelim>=0.1.6",
+    "referencing>=0.36.2",
+    "requests>=2.32.3",
+    "rich>=13.9.4",
+    "rpds-py>=0.23.1",
+    "smmap>=5.0.2",
+    "streamlit>=1.43.2",
+    "streamlit-folium>=0.24.0",
+    "tenacity>=9.0.0",
+    "toml>=0.10.2",
+    "toolz>=1.0.0",
+    "typing-extensions>=4.12.2",
+    "tzdata>=2025.1",
+    "urllib3>=2.3.0",
+    "xyzservices>=2025.1.0",
+]
+
+[project.scripts]
+bike-service = "bike_service:main"
+app="bike_service:script.app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

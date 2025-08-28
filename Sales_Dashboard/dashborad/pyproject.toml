@@ -1,0 +1,24 @@
+[project]
+name = "dashborad"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Muhammad Usman GM", email = "muhammadusman75425965etc@gamil.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "duckdb>=1.2.1",
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.3",
+    "plotly-express>=0.4.1",
+    "streamlit>=1.43.2",
+]
+
+[project.scripts]
+dashborad = "dashborad:main"
+app = "dashborad:script.app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

@@ -1,0 +1,21 @@
+[project]
+name = "streamlit-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Muhammad Usman GM", email = "muhammadusman75425965etc@gamil.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "streamlit>=1.42.2",
+]
+
+[project.scripts]
+streamlit-app = "streamlit_app:main"
+app = "streamlit_app.script:app"
+app1= "streamlit_app.script1:app1"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

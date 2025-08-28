@@ -1,0 +1,25 @@
+[project]
+name = "data-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Muhammad Usman GM", email = "muhammadusman75425965etc@gamil.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "datetime>=5.5",
+    "numpy>=2.2.3",
+    "pandas>=2.2.3",
+    "seaborn>=0.13.2",
+    "streamlit>=1.43.2",
+    "xlsxwriter>=3.2.2",
+]
+
+[project.scripts]
+data-app = "data_app:main"
+app = "data_app.script:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
